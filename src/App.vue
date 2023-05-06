@@ -25,7 +25,7 @@ export default {
     // promises
 
       async fetchMetals(){
-         const res= await fetch('http://localhost:5511/api')
+         const res= await fetch('https://chandrayerva.onrender.com/api')
          const data= await res.json()
           //console.log(data)
          return data

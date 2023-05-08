@@ -40,6 +40,9 @@ h4{
 
 div{
     background-color: #ffb89e;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
     color: black;
     padding: 1em;
     text-align: center;

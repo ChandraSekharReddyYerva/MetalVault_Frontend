@@ -2,9 +2,9 @@
     
     <div  :class="metal.Availability ? 'yes': 'no' ">
 
-                    <h2>Metal Name: {{ metal.Metal }}</h2>
+                    <h2>{{ metal.Metal }}</h2>
                     <h4>Short Name: {{ metal.ShortName }}</h4>
-                    <h4>Price in USD: {{ metal.Price }}</h4>
+                    <h4>Price in $: {{ metal.Price }}</h4>
                     <a :href="metal.URL" target="_blank">Click here for Metal Details</a>
                     <h4>Date: {{ metal.Date }}</h4>
 
